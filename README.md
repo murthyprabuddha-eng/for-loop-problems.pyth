@@ -8,3 +8,8 @@ for i in range(1,N+1):
     
 print("sum is:",total)
 
+2 Multiplication table — Print the multiplication table of a given number.
+for i in range(1,11):
+    for j in range(1,11):
+        print(i,"x",j,"=",i*j)
+
