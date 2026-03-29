@@ -21,4 +21,8 @@ for word in string:
         count +=1
         
 print(" the count ovels in the word:",count)
+------------------------------------------------------------------------------------------------------------
+4 List of squares — Print the square of every number from 1 to 10.
+for i in range (1,22):
+    print(i,"=",i*i)
  
