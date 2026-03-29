@@ -12,4 +12,13 @@ print("sum is:",total)
 for i in range(1,11):
     for j in range(1,11):
         print(i,"x",j,"=",i*j)
-
+------------------------------------------------------------------------------------------------------------
+3 Count vowels — Count the number of vowels in a given string.
+string=input("word: ")
+count=0
+for word in string:
+    if word in "aeiouAEIOU":
+        count +=1
+        
+print(" the count ovels in the word:",count)
+ 
